@@ -274,7 +274,7 @@
                 modern.
               </p>
             </div>
-            <div class="text-left rounded-lg p-6 bg-[#77AAEA]">
+            <div class="text-left rounded-lg p-6 bg-[#77AAEA] mb-4">
               <img src="./images/budget-planning.png" alt="budget-planning" />
               <h4 class="text-lg font-extrabold mb-2">Budget Planning</h4>
               <p class="text-base font-medium">
@@ -342,20 +342,17 @@
               </div>
             </div>
             <!-- card - 2  -->
-            <div class="w-full bg-white border rounded-2xl p-5 sm:mb-5">
-              <img class="w-full" src="./images/img2.png" alt="" />
+            <div class="w-full bg-white border rounded-2xl p-5 mb-5">
+              <img class="w-full h-52" src="./images/img2.png" alt="" />
             </div>
           </div>
-          <!-- card - 6 -->
-          <div
-            class="lg:hidden sm:block w-full bg-white border rounded-2xl p-5 mb-4 lg:mb-0"
-          >
-            <img class="w-full sm:h-52" src="./images/img5.png" alt="" />
-          </div>
-          <div class="lg:grid lg:grid-cols-[1fr_2fr_1fr] gap-4">
+
+          <div class="grid lg:grid-cols-[1fr_2fr_1fr] gap-4">
             <!-- card - 3 -->
-            <div class="sm:w-full bg-white border rounded-2xl p-5 mb-4 lg:mb-0">
-              <img class="w-full sm:h-52" src="./images/img3.png" alt="" />
+            <div
+              class="sm:w-full bg-white border rounded-2xl p-5 mb-4 lg:mb-0 order-last lg:order-first"
+            >
+              <img class="w-full h-full" src="./images/img3.png" alt="" />
             </div>
             <!-- card - 4  -->
             <div
@@ -363,7 +360,7 @@
             >
               <div class="lg:basis-5/12 w-full">
                 <img
-                  class="w-full sm:h-52"
+                  class="w-full sm:h-full"
                   src="./images/img1.png"
                   alt="house on the hand"
                 />
@@ -393,11 +390,17 @@
             </div>
             <!-- card - 5 -->
             <div
-              class="lg:flex lg:justify-end w-full bg-white border rounded-2xl p-5 sm:mb-5"
+              class="lg:flex lg:justify-end w-full h-full bg-white border rounded-2xl p-5 sm:mb-5 lg:mb-0 order-first lg:order-2"
             >
-              <img class="w-full sm:h-52" src="./images/img5.png" alt="" />
+              <img class="w-full" src="./images/img5.png" alt="" />
             </div>
           </div>
+        </div>
+        <!-- card - 6 -->
+        <div
+          class="lg:hidden sm:block w-full bg-white border rounded-2xl p-5 mb-4 lg:mb-0"
+        >
+          <img class="w-full sm:h-52" src="./images/img5.png" alt="" />
         </div>
       </section>
       <!-- Unique Section  -->
